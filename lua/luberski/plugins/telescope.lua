@@ -5,7 +5,7 @@ return {
 
   config = function()
     local builtin = require('telescope.builtin')
-    vim.keymap.set('n', '<C-p>', builtin.find_files, {})
-    vim.keymap.set('n', '<C-P>', builtin.git_files, {})
+    vim.keymap.set('n', '<leader>o', builtin.find_files, {})
+    vim.keymap.set('n', '<leader>go', builtin.git_files, {})
   end
 }
