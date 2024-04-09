@@ -13,10 +13,9 @@ vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup(
   {
-    { import = "luberski.plugins" }, 
+    { import = "luberski.plugins" },
     { import = "luberski.plugins.lsp" },
   },
 
   {}
 )
-
