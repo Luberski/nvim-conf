@@ -1,5 +1,5 @@
 return {
-{
+  {
     "nvim-treesitter/nvim-treesitter",
     event = { "BufReadPre", "BufNewFile" },
     build = ":TSUpdate",
@@ -31,8 +31,8 @@ return {
           "gitignore",
           "rust",
           "vimdoc", -- required
-          "c", -- required
-          "query", -- required
+          "c",      -- required
+          "query",  -- required
         },
 
         incremental_selection = {
@@ -45,7 +45,6 @@ return {
           },
         },
       })
-
     end,
   },
 }
